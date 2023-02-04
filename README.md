@@ -1,14 +1,14 @@
 # DuckDNS
 Duck DNS crontab script
 
-# Prerequisites
+## Prerequisites
 - bash
 - crontab
 - sponge 
   - Debian: `sudo apt-get install moreutils`
   - Fedora: `sudo yum install moreutils`
   
-# Setup
+## Setup
 **NOTE**: This setup is similar to the instructions provided by Duck DNS (https://www.duckdns.org/install.jsp?tab=linux-cron)
 1. Download duck.sh script and place it in a desired location. For the sake of this setup, `/DuckDNS/duck.sh` will be used.
 2. Update script to provide `DOMAINS` and `TOKEN` based on your Duck DNS information. Also update `LOG_FILE` and `LOG_LENGTH` to desired log location and log max line count respectively.
